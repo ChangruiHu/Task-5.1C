@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="col-sm-4">
+            <div class="card">
+                <article class="card-body">
+                    <a href="./custsignup.html" class="float-right btn btn-outline-primary">Sign up</a>
+                    <h4 class="card-title mb-4 mt-1">Sign in</h4>
+                    <form method="post" action="/log_in">
+                        <div class="form-group">
+                            <label>Your email</label>
+                            <input name="email" id="email" class="form-control" placeholder="Email" type="email">
+                        </div> <!-- form-group// -->
+                        <div class="form-group">
+                            <a class="float-right" href="#">Forgot?</a>
+                            <label>Your password</label>
+                            <input name="pass" id="pass" class="form-control" placeholder="******" type="password">
+                        </div> <!-- form-group// -->
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label> <input type="checkbox"> Save password </label>
+                            </div> <!-- checkbox .// -->
+                        </div> <!-- form-group// -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> Login </button>
+                        </div> <!-- form-group// -->
+                    </form>
+                </article>
+            </div> <!-- card.// -->
+    </div>
+    </aside>
+</body>
+
+</html>
